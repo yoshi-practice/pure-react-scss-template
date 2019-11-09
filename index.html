@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <title>Pure React and SCSS</title>
+
+    <!-- compile scss-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sass.js/0.10.7/sass.sync.min.js"></script>
+    <link rel="stylesheet" type="text/scss" href="./scss/style.scss">
+
+    <!-- compile jsx and patch react component-->
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script type="text/babel" src="./jsx/main.jsx" defer></script>
+  </head>
+  <body>
+    <div id="app">
+    </div>
+  </body>
+</html>
